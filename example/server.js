@@ -33,8 +33,6 @@ app.use("*", (req, res) => {
     `<div id="app">${appHTML}</div>`
   );
 
-  console.log(appHTML);
-
   res.contentType("text/html");
   res.status(200);
 
